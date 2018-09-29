@@ -1,7 +1,6 @@
 @import url('https://fonts.google.com/specimen/Source+Sans+Pro');
 
 body {
-    /*background-color: black;*/
     font-family: "Source Sans Pro";
     font-size: 14px;
 }
@@ -48,6 +47,12 @@ h2{
     text-align: center;
 }
 
+h3{
+    color: #cf7d38;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+}
 
 .behind{
     position: relative;
@@ -55,17 +60,17 @@ h2{
     
 }
 
-    a:link{
-        color: #4F4F4F;
-        text-decoration: none;
+a:link{
+    color: #4F4F4F;
+    text-decoration: none;
         }
-    a:visited{
-        color: #4F4F4F;
-        text-decoration: none;   
+a:visited{
+    color: #4F4F4F;
+    text-decoration: none;   
         }
-    a:active{
-        text-decoration: underline;
-        color: #cf7d38;
+a:active{
+    text-decoration: underline;
+    color: #cf7d38;
         }
 
 .caption{
@@ -79,11 +84,9 @@ table.menugrid{
     width: 100%
 }
 
-th{
-    padding-top: 5%;
-
-}
-
+table{
+    border-collapse: collapse;
+    }
 .caption{
     text-align: center;
 }
