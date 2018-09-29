@@ -54,10 +54,18 @@ h3{
     font-size: 30px;
 }
 
+h5{
+    color: #cf7d38;
+    font-size: 30px;
+}
+
+p{
+    color: #4f4f4f;
+}
+
 .behind{
     position: relative;
     width: 100%;
-    
 }
 
 a:link{
@@ -75,7 +83,6 @@ a:active{
 
 .caption{
     text-align: center
-    
 }
 
 table.menugrid{
@@ -86,7 +93,31 @@ table.menugrid{
 
 table{
     border-collapse: collapse;
+    table-layout: fixed;
     }
 .caption{
     text-align: center;
+}
+
+.details{
+ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-collapse: collapse;
+
+}
+
+tr, td{
+    /*border: 1px solid black;*/
+    vertical-align: top;
+
+}
+
+form{
+    color: #4f4f4f;
+}
+
+button{
+    margin-top: 15px;
 }
