@@ -9,6 +9,7 @@ nav.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 nav ul {
@@ -37,11 +38,17 @@ nav ul{
     float: left;
 }
 
-
+.menu{
+    
+    border-style: solid;
+    border-color: #4f4f4f;
+    border-width: thin;
+    border-bottom-color: white;
+}
 h3{
     color: #cf7d38;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 20px;
     font-size: 30px;
 }
 
@@ -82,11 +89,13 @@ p{
 a:link{
     color: #4F4F4F;
     text-decoration: none;
-        }
+    }
+
 a:visited{
     color: #4F4F4F;
     text-decoration: none;   
-        }
+    }
+
 a:active{
     text-decoration: underline;
     color: #cf7d38;
@@ -96,11 +105,20 @@ a:active{
     text-align: center
 }
 
-table.menugrid{
+.listing{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
+.tablegrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 
 /*table{
     border-collapse: collapse;
@@ -121,7 +139,6 @@ table.menugrid{
 tr, td{
     /*border: 1px solid black;*/
     vertical-align: top;
-
 }
 
 form{
