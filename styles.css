@@ -4,19 +4,32 @@ body {
     font-family: "Source Sans Pro";
     font-size: 14px;
 }
+
+nav.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
     
 nav li{
     color: #4F4F4F;
     list-style-type: none;
-    display:inline-block;
     font-size: 20px;
     padding: 0px 25px;
     }
    
+/*
 nav ul{
     text-align: right; 
     float: right;
 }
+*/
 
 .logo{
     width: 50px;
@@ -24,28 +37,6 @@ nav ul{
     float: left;
 }
 
-h1{
-    top: 200px;
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin: auto;
-    color: white;
-    font-size: 100px;
-    position: absolute;
-}
-
-h2{
-    position: absolute;
-    top: 480px;
-    background-color: #cf7d38;
-    margin-left: 33%;
-    margin-right: 33%;
-    padding: 80px;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-}
 
 h3{
     color: #cf7d38;
@@ -63,9 +54,29 @@ p{
     color: #4f4f4f;
 }
 
-.behind{
-    position: relative;
-    width: 100%;
+.mainhome{
+    background-image: url(homepagebg.png);
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-align: center;
+    background-size: cover;
+}
+
+.mainhome h1{
+    color: white;
+    font-size: 100px;  
+}
+
+.mainhome h2{
+    top: 480px;
+    background-color: #cf7d38;
+    padding: 80px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 32%;
+    margin-right: 32%;
 }
 
 a:link{
@@ -86,26 +97,25 @@ a:active{
 }
 
 table.menugrid{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-table{
+/*table{
     border-collapse: collapse;
     table-layout: fixed;
-    }
+    }*/
+
 .caption{
     text-align: center;
 }
 
 .details{
- 
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     border-collapse: collapse;
-
 }
 
 tr, td{
