@@ -24,27 +24,19 @@ nav li{
     font-size: 20px;
     padding: 0px 25px;
     }
-   
-/*
-nav ul{
-    text-align: right; 
-    float: right;
-}
-*/
 
 .logo{
     width: 50px;
     height: 50px;
-    float: left;
 }
 
-.menu{
-    
+.menu{   
     border-style: solid;
     border-color: #4f4f4f;
     border-width: thin;
     border-bottom-color: white;
 }
+
 h3{
     color: #cf7d38;
     text-align: center;
@@ -55,35 +47,55 @@ h3{
 h5{
     color: #cf7d38;
     font-size: 30px;
+    margin: 10px 0px 0px 0px;
 }
 
 p{
     color: #4f4f4f;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .mainhome{
-    background-image: url(homepagebg.png);
+    background-image: url(bun3.jpg);
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
     text-align: center;
     background-size: cover;
+    padding-bottom: 5%;
+
 }
 
 .mainhome h1{
     color: white;
-    font-size: 100px;  
+    font-size: 90px;  
 }
 
-.mainhome h2{
-    top: 480px;
+.boxinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 18px;
+    padding: 50px;
+    font-size: 20px;
     background-color: #cf7d38;
-    padding: 80px;
-    color: white;
-    font-size: 30px;
-    text-align: center;
     margin-left: 32%;
     margin-right: 32%;
+    
+
+}
+
+.boxinfo h2{
+    color: white;
+    margin: 0;   
+}
+
+button.button1{
+    background-color: white;
+    color: #cf7d38;
+    font-size: 25px;
+    margin: 5px auto;
 }
 
 a:link{
@@ -106,7 +118,7 @@ a:active{
 }
 
 .listing{
-    display: flex;
+    display: flex
     flex-direction: column;
     justify-content: space-between;
 }
@@ -130,15 +142,25 @@ a:active{
 }
 
 .details{
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    border-collapse: collapse;
+    border-color: #4f4f4f;
+    border-width: thin;
+    border-style: solid;
+    border-bottom-color: white;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 13%;
 }
 
-tr, td{
-    /*border: 1px solid black;*/
-    vertical-align: top;
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3%;
 }
 
 form{
@@ -146,5 +168,12 @@ form{
 }
 
 button{
-    margin-top: 15px;
+    background-color: #cf7d38;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
