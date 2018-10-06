@@ -2,7 +2,8 @@
 
 body {
     font-family: "Source Sans Pro";
-    font-size: 14px;
+    font-size: 13px;
+    margin: 15px;
 }
 
 nav.navbar {
@@ -21,7 +22,8 @@ nav ul {
 nav li{
     color: #4F4F4F;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 650;
     padding: 0px 25px;
     }
 
@@ -44,17 +46,26 @@ h3{
     font-size: 30px;
 }
 
+.caption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    color: #4f4f4f;
+    font-size: 20px;
+}
+
+p{
+    color: #4f4f4f;
+    font-weight: bold;
+}
+
 h5{
     color: #cf7d38;
     font-size: 30px;
     margin: 10px 0px 0px 0px;
 }
 
-p{
-    color: #4f4f4f;
-    font-weight: bold;
-    font-size: 15px;
-}
 
 .mainhome{
     background-image: url(bun3.jpg);
@@ -63,11 +74,13 @@ p{
     justify-content: space-between;
     text-align: center;
     background-size: cover;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
+    font-kerning: normal;
 
 }
 
 .mainhome h1{
+    padding-top: 90px;
     color: white;
     font-size: 90px;  
 }
@@ -81,21 +94,24 @@ p{
     font-size: 20px;
     background-color: #cf7d38;
     margin-left: 32%;
-    margin-right: 32%;
-    
+    margin-right: 32%; 
 
 }
 
 .boxinfo h2{
     color: white;
-    margin: 0;   
+    font-size: 20px;
+    margin: 0;  
+    padding-bottom: 15px;
 }
 
 button.button1{
     background-color: white;
     color: #cf7d38;
-    font-size: 25px;
+    font-size: 20px;
     margin: 5px auto;
+    font-weight: 600;
+    padding: 10px;
 }
 
 a:link{
@@ -113,14 +129,10 @@ a:active{
     color: #cf7d38;
         }
 
-.caption{
-    text-align: center
-}
 
 .listing{
-    display: flex
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .tablegrid{
@@ -132,13 +144,10 @@ a:active{
 }
 
 
-/*table{
-    border-collapse: collapse;
-    table-layout: fixed;
-    }*/
-
 .caption{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .details{
