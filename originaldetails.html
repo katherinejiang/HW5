@@ -29,31 +29,35 @@
 <div class="details">
     <img src=fullcinnamonbun-01.png>
 
-    <div class=description>
+    <div class="description">
         <h5>ORIGINAL</h5>
         
         <p> Big, fluffy, soft, and absolutely delicious. The original cinnamon bun features our <br>signature sweet bun recipe topped with cinnamon and sugar.</p>
         
         
-        <p>Glazings</p>
+        <div class="glazings">
+            <p1>Glazings</p1>
             
-        <form action="">
+            <form action="">
                 <input type="radio" name="glazing" value="none"> None
                 <input type="radio" name="glazing" value="vanilla"> Vanilla Milk
                 <input type="radio" name="glazing" value="sugar"> Sugar Milk
                 <input type="radio" name="glazing" value="chocolate"> Double Chocolate
-        </form>
+            </form>
+        </div>
         
-        <p>Quantity</p>
+        <div class="quantity">
+            <p1>Quantity</p1>
         
-        <form action="">
-                <input type="radio" name="quantity" value="1"> 1ct   $5
-                <input type="radio" name="quantity" value="3"> 3ct   $14
-                <input type="radio" name="quantity" value="6"> 6ct   $27
-                <input type="radio" name="quantity" value="12"> 12ct  $53
-        </form>
-            
-            <button type="button"><a href="./browse.html">Add to Cart</a></button>
+            <form action="">
+                <input type="radio" id="ctOne" name="quantity"> 1ct/$5
+                <input type="radio" id="ctThree" name="quantity"> 3ct/$14
+                <input type="radio" id="ctSix" name="quantity"> 6ct/$27
+                <input type="radio" id="ctTwelve" name="quantity"> 12ct/$53
+            </form>
+       </div>
+        
+            <button type="button" class="button2">Add to Cart</button>
       
     </div>
 </div>

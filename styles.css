@@ -57,7 +57,12 @@ h3{
 
 p{
     color: #4f4f4f;
-    font-weight: bold;
+}
+
+p1{
+    font-weight: 500;
+    color: #4f4f4f;
+    font-weight: 700;
 }
 
 h5{
@@ -66,6 +71,13 @@ h5{
     margin: 10px 0px 0px 0px;
 }
 
+radio
+
+.glazings{
+    background-color: #cf7d38;
+    display: flex;
+    
+}
 
 .mainhome{
     background-image: url(bun3.jpg);
@@ -159,7 +171,7 @@ a:active{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 5%;
+    padding-top: 8%;
     padding-left: 12%;
     padding-right: 12%;
     padding-bottom: 13%;
@@ -172,17 +184,69 @@ a:active{
     margin-bottom: 3%;
 }
 
-form{
+input{
     color: #4f4f4f;
-}
-
-button{
     background-color: #cf7d38;
-    font-size: 15px;
-    border-radius: 5px;
-    color: white;
-    margin-right: 50%;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.qbutton{
+    background-color: white;
+    border-radius: 14px;
+    border: 1px solid;
+    padding: 5px 7px;
+}
+
+.qbutton:hover{
+    background-color: #cf7d38;
+    color: white;
+}
+
+.qbutton:active {
+	position:relative;
+	top:1px;
+    background-color: #cf7d38;
+    color: white;
+}
+
+.button2{
+    background-color:#cf7d38;
+	border-radius:28px;
+	border:1px solid;
+	display:inline-block;
+	color: white;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+.button2:hover {
+	background-color:#E59B5C;
+}
+.button2:active {
+	position:relative;
+	top:1px;
+}
