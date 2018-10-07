@@ -23,7 +23,7 @@ nav li{
     color: #4F4F4F;
     list-style-type: none;
     font-size: 15px;
-    font-weight: 650;
+    font-weight: 700;
     padding: 0px 25px;
     }
 
@@ -39,6 +39,11 @@ nav li{
     border-bottom-color: white;
 }
 
+.fullbun{
+    object-position: top;
+    width: 468px;
+    height: 585px;
+}
 h3{
     color: #cf7d38;
     text-align: center;
@@ -180,10 +185,10 @@ a.navlink:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 8%;
+    padding-top: 4%;
     padding-left: 12%;
     padding-right: 12%;
-    padding-bottom: 13%;
+    padding-bottom: 6%;
 }
 
 .description{
